@@ -17,7 +17,7 @@ int *TwoSums(int *nums,int Numsize,int target){
 void main(){
 
     int nums[] = {2,7,11,15,8};
-    int target =15;
+    int target =18;
     int length = sizeof(nums)/sizeof(nums[0]);
     int *arr;
     arr =TwoSums(nums,length,target);
